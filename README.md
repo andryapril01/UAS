@@ -4,7 +4,7 @@ Wedding Aries adalah aplikasi web perinakahan yang menyediakan berbagai layanan 
 
 Untuk informasi lebih lanjut tentang apa yang diterapkan, lihat Dewan kami saat ini.
 
-> Proyek ini tidak lagi dikerjakan. Repo cabang ini hanya berfungsi untuk memberikan inspirasi kepada orang lain sebagai referensi point in time, Anda dapat melihat kode sebelumnya dengan melihat cabang arsip.
+> Proyek ini tidak lagi dikerjakan. Wedding Aries ini hanya berfungsi untuk memberikan inspirasi kepada orang lain sebagai referensi point in time, Anda dapat melihat kode sebelumnya dengan melihat cabang arsip.
 
 | Gambar 1 | Gambar 2 | Gambar 3 | Gambar 4 |
 |----------|----------|----------|----------|
