@@ -1,16 +1,24 @@
 # Wedding Aries
 
-Wedding Aries adalah aplikasi web perinakahan yang menyediakan berbagai layanan seperti tata rias panggung, make up, photograpy/vidiography (dokumentasi), dan makanan. Aplikasi Web ini bertujuan untuk 
-menyediakan kebutuhan dan keinginan yang diinginkan oleh pelanggan untuk menyempurnakan pernikahan mereka.
+Wedding Aries adalah aplikasi web perinakahan yang menyediakan berbagai layanan seperti tata rias panggung, make up, photograpy/vidiography (dokumentasi), dan makanan. Aplikasi Web ini bertujuan untuk menyediakan kebutuhan dan keinginan yang diinginkan oleh pelanggan untuk menyempurnakan pernikahan mereka.
 
-For more up-to-date information on what's being implemented, take a look at our current Boards:
+Untuk informasi lebih lanjut tentang apa yang diterapkan, lihat Dewan kami saat ini.
 
-<img src="https://github.com/user-attachments/assets/ab3584bb-f627-41a4-a112-832630d0e29b" alt="2024-07-20 (6)" width="200"/>
-<img src="https://github.com/user-attachments/assets/8a7ded56-550c-4162-abb3-418c98a85dc7" alt="2024-07-20 (7)" width="200"/>
-<img src="https://github.com/user-attachments/assets/ceb21d45-f3ff-42ab-bbf2-695c006b06bd" alt="2024-07-20 (7)" width="200"/>
+> Proyek ini tidak lagi dikerjakan. Repo cabang ini hanya berfungsi untuk memberikan inspirasi kepada orang lain sebagai referensi point in time, Anda dapat melihat kode sebelumnya dengan melihat cabang arsip.
 
-<img src="https://github.com/user-attachments/assets/dd94a229-4bf1-4d7a-8217-f2920ee84de4" alt="2024-07-20 (9)" width="200"/>
-<img src="https://github.com/user-attachments/assets/48e0e817-50ea-4da8-b51b-ea13b581e51d" alt="2024-07-20 (11)" width="200"/>
-<img src="https://github.com/user-attachments/assets/a103e077-a48b-40a1-835e-73726069ace1" alt="2024-07-20 (12)" width="200"/>
+| Gambar 1 | Gambar 2 | Gambar 3 |
+|----------|----------|----------|
+| ![1](https://github.com/user-attachments/assets/efaf5e2b-f412-4cf1-9012-e42aeaf3f526) | ![2](https://github.com/user-attachments/assets/4b74a85c-a1b7-47a4-89ff-e40387bf7c20) | ![3](https://github.com/user-attachments/assets/8bede3cd-5851-4ddb-a553-e9937f1d82e6) |
+| ![4](https://github.com/user-attachments/assets/e251415c-f629-4b0d-b851-b473cdd007d8) | ![5](https://github.com/user-attachments/assets/b7f73d9c-cce0-40b6-8c6c-74c7f0471b85) | ![6](https://github.com/user-attachments/assets/30c022d1-de5d-433e-86fe-09cec886f621) |
+| ![7](https://github.com/user-attachments/assets/031cde98-aa3c-47a7-8361-1bd5b3529838) | ![8](https://github.com/user-attachments/assets/c1df2501-f5cf-4a32-bd12-c26fb29a833d) | ![9](https://github.com/user-attachments/assets/1b786c83-3261-4655-a87c-b5e16e4bc8f0) |
+| ![10](https://github.com/user-attachments/assets/d410f862-ebb6-4f51-a34e-cc923a7280a5) |          |          |
 
-<img src="https://github.com/user-attachments/assets/b0254a1d-d231-4edf-ba15-9e4a4282b86c" alt="2024-07-20 (13)" width="200"/>
+## Tech
+
+Wedding Aries dibangun menggunakan teknologi berikut:
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - Markup language untuk membuat struktur halaman web.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Style sheet language untuk mendesain halaman web.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Bahasa pemrograman untuk membuat halaman web interaktif.
+- [PHP](https://www.php.net/) - Bahasa pemrograman server-side untuk pengembangan web.
+- [XAMPP](https://www.apachefriends.org/index.html) - Distribusi Apache yang mudah digunakan yang berisi MariaDB, PHP, dan Perl.
