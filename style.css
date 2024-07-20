@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap");
+
+:root {
+  --pink: #ef5777;
+  --white: #fff;
+  --black: #222;
+  --transparent-white: rgba(255, 255, 255, 0.3);
+  --border: 0.2rem solid var(--black);
+  --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: antiquewhite;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(108, 92, 72);
+  padding: 20px 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .tittle {
+  font-size: 24px;
+  color: rgb(243, 185, 110);
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  gap: 50px;
+}
+
+header .hlr {
+  text-decoration: none;
+  color: rgb(243, 185, 110);
+  text-align: right;
+  font-size: 18px;
+}
+
+/* Tambahan gaya hover untuk link navigasi */
+header .hlr:hover {
+  color: rgb(78, 44, 0);
+}
+
+.text-center {
+  text-align: center;
+  color: rgb(243, 185, 110);
+}
+
+footer {
+  padding: 10px 20px;
+  text-align: left;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: auto;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.image-gallery img {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

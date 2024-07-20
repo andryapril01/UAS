@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap");
+
+:root {
+  --pink: #ef5777;
+  --white: #fff;
+  --black: #222;
+  --transparent-white: rgba(255, 255, 255, 0.3);
+  --border: 0.2rem solid var(--black);
+  --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+* {
+  font-family: "Playwrite NG Modern", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--pink);
+}
+
+body {
+  background: url("gambar/priccing.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow-y: auto;
+}
+
+.container {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background: var(--transparent-white);
+  backdrop-filter: blur(0.5rem);
+  max-width: 1200px;
+  margin: 10rem auto;
+  box-shadow: var(--box-shadow);
+}
+
+.logout-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.logout-btn:hover {
+  background-color: #d32f2f;
+}
+
+section {
+  padding: 1rem;
+}
+
+.header {
+  position: relative;
+  z-index: 100;
+  background: var(--transparent-white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.header .logo {
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+.header .navbar {
+  display: flex;
+  align-items: center;
+}
+
+.header .navbar a {
+  font-size: 2rem;
+  margin-left: 2rem;
+  color: var(--black);
+}
+
+.header .navbar a:hover {
+  color: var(--pink);
+}
+
+#menu-btn {
+  font-size: 2.5rem;
+  color: var(--black);
+  cursor: pointer;
+  display: none;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  text-align: center;
+  background: url("porto1.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 5rem;
+  border-radius: 0.5rem;
+}
+
+.artis-h1 {
+  font-size: 4rem;
+  margin: 2rem 0;
+  color: var(--black);
+  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.description {
+  font-size: 1.8rem;
+  color: var(--black);
+  max-width: 800px;
+  text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.image-gallery {
+  display: none; /* This hides the image gallery as the background image is set in CSS */
+}
+
+.home-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.home-button {
+  background-color: var(--pink);
+  color: var(--white);
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #d32f2f; /* Warna saat hover */
+}
+
+.footse {
+  background: var(--transparent-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footse .boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+
+.footse .boxes .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footse .boxes .box h3 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: var(--black);
+  padding: 1rem 0;
+}
+
+.footse .boxes .box a {
+  display: block;
+  font-size: 1.5rem;
+  color: var(--black);
+  padding: 1rem 0;
+}
+
+.footse .boxes .box a i {
+  color: var(--pink);
+  padding-right: 0.5rem;
+  transition: 0.2s linear;
+}
+
+.footse .boxes .box a:hover i {
+  padding-right: 2rem;
+}
+
+.footse .credit {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: var(--border);
+  color: var(--black);
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.footse .credit span {
+  color: var(--pink);
+}
+
+/* media queries */
+
+@media (max-width: 1200px) {
+  .container {
+    margin: 5rem 10rem;
+  }
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  .container {
+    margin: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block;
+    transition: 0.2s linear;
+  }
+
+  #menu-btn.fa-times {
+    transform: rotate(180deg);
+  }
+
+  .header .navbar {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background: var(--white);
+    border-top: var(--border);
+    padding: 2rem;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  .header .navbar .active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .header .navbar a {
+    display: block;
+    margin: 2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+  .container {
+    margin: 2rem;
+  }
+}

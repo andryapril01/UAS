@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap");
+
+:root {
+  --pink: #ef5777;
+  --white: #fff;
+  --black: #222;
+  --transparent-white: rgba(255, 255, 255, 0.9);
+  --border: 0.2rem solid var(--black);
+  --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+* {
+  font-family: "Playwrite NG Modern", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background: url("gambar/23.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow-y: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 10rem auto;
+  background: var(--transparent-white);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+}
+
+.logout-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.logout-btn:hover {
+  background-color: #d32f2f;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: var(--transparent-white);
+}
+
+.header .logo {
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+.header .navbar a {
+  margin-left: 2rem;
+  color: var(--black);
+  font-size: 1.8rem;
+}
+
+.header .navbar a:hover {
+  color: var(--pink);
+}
+
+.heading {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.pricing .packages {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.package {
+  background: var(--white);
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin: 1rem;
+  flex: 1;
+  max-width: 30%;
+  min-width: 280px;
+  text-align: center;
+}
+
+.package h2 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.package .price {
+  font-size: 3rem;
+  color: var(--pink);
+  margin-bottom: 1rem;
+}
+
+.package ul {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.package ul li {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.book-now {
+  background-color: var(--pink);
+  color: var(--white);
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-now:hover {
+  background-color: #d32f2f;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: var(--white);
+  margin: 15% auto;
+  padding: 2rem;
+  border: 1px solid var(--black);
+  width: 80%;
+  max-width: 600px;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+}
+
+.close-btn {
+  color: var(--black);
+  float: right;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: var(--pink);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  margin: 1rem 0 0.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--black);
+  border-radius: 0.5rem;
+}
+
+.submit-btn {
+  background-color: var(--pink);
+  color: var(--white);
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #d32f2f;
+}
