@@ -21,3 +21,7 @@ Wedding Aries dibangun menggunakan teknologi berikut:
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Bahasa pemrograman untuk membuat halaman web interaktif.
 - [PHP](https://www.php.net/) - Bahasa pemrograman server-side untuk pengembangan web.
 - [XAMPP](https://www.apachefriends.org/index.html) - Distribusi Apache yang mudah digunakan yang berisi MariaDB, PHP, dan Perl.
+
+
+  ## GDrive
+  Berikut adalah link Gdrive project Wedding Aries : (https://drive.google.com/drive/folders/1Wy7m2NJNPmVMnf-BK2CwaxEVEz4FEoGX?usp=drive_link)
