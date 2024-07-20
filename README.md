@@ -4,13 +4,12 @@
 menyediakan kebutuhan dan keinginan yang di inginkan oleh pelanggan untuk menyempurnakan pernikahan mereka.  
 
 ## Daftar Isi
-- Register dan Login
-- Halaman Utama (Home)
-- Halaman Tentang Wedding Aries (About)
-- Halaman dokumentasi atau hasil Wedding Aries (Portofolio)
-- Halaman paket pernikahan (Priccing)
-- Halaman Contact (Contact)
-- Lisensi
+- [Tentang Proyek](#tentang-proyek)
+- [Tech](#tech)
+- [Penggunaan](#penggunaan)
+- [Kontribusi](#kontribusi)
+- [Lisensi](#lisensi)
+- [Kontak](#kontak)
 
 ## Register dan Login
 
