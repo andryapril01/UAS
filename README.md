@@ -5,5 +5,4 @@ menyediakan kebutuhan dan keinginan yang di inginkan oleh pelanggan untuk menyem
 
 For more up-to-date information on what's being implemented, take a look at our current Boards :
 
-![Screenshot](![2024-07-20 (6)](https://github.com/user-attachments/assets/c198c131-0c05-43c7-9e91-cf6ae200628b)
-)
+![Halaman Utama](![![2024-07-20 (6)](https://github.com/user-attachments/assets/ab3584bb-f627-41a4-a112-832630d0e29b))
